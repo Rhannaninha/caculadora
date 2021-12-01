@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="sim.css">
+    <title>Calculadora de Salário</title>
+</head>
+<body>
+    <div class="borda">
+        <span id="titulo">Cálculo do Salário</span>
+        <p>
+        <div class="quadrinhos">
+            <span id="texto">Nome</span>
+            <p>
+            <input type="text" id="nome" class="caixa">
+            <p>
+            <span id="texto">Valor Hora</span>
+            <p>
+            <input type="text" id="valor" class="caixa" placeholder="R$0.00">
+            <p>
+            <span id="texto">Quantidade de Horas Trabalhadas</span>
+            <p>
+            <input type="text" id="hora" class="caixa" placeholder="0.00">
+            <p>
+            <span id="texto">Salário Bruto</span>
+            <p>
+            <input type="text" id="bruto" class="caixa" placeholder="R$0.00" readonly>
+            <p>
+            <span id="texto">IRRF</span>
+            <p>
+            <input type="text" id="irrf" class="caixa" placeholder="R$0.00" readonly>
+            <P>
+            <span id="texto">Gratificação</span>
+            <p>
+            <input type="text" id="gratificação" class="caixa" placeholder="R$0.00" readonly>
+            <p>
+            <span id="texto">Salário Líquido</span>
+            <p>
+            <input type="text" id="liquido" class="caixa" placeholder="R$0.00" readonly>
+        </div>
+
+        <div class="bu">
+            <input type="button" onclick="Limpar()" id="branco" value="Limpar">
+            <input type="button" onclick="Calcular()" id="verde" value="Calcular">
+        </div>
+    </div>
+
+    <script src="calculandosalario.js"></script>
+</body>
+</html>

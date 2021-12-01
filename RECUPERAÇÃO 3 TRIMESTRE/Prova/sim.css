@@ -1,0 +1,55 @@
+#nomeimg {
+    width: 20px;
+    height: 20px;
+}
+
+#dinheiro {
+    width: 18px;
+    height: 18px;
+}
+
+#horaimg {
+    width: 15px;
+    height: 15px;
+}
+
+#calculadora {
+    width: 32px;
+    height: 32px;
+}
+
+#branco {
+    padding: 7px 22px;
+}
+
+#verde {
+    background-color: rgb(33, 189, 33);
+    color: white;
+    padding: 7px 22px;
+}
+
+#texto {
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+}
+
+#titulo {
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
+.borda {
+    width: 280px;
+    height: auto;
+    clear: both;
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 3%;
+}
+
+.caixa {
+    border-radius: 3px;
+}
